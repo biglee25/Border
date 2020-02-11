@@ -1,4 +1,45 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #hero-section {
     height: 100vh;
     background-color: #212121;
+    align-items: center;
+}
+
+#about-section {
+    height: 100vh;
+    background-color: #e2e2e2;
+    align-items: center;
+}
+
+#services-section {
+    height: 100vh;
+    background-color: #212121;
+    align-items: center;
+}
+
+#areas-section {
+    height: 100vh;
+    background-color: ##e2e2e2;
+    align-items: center;
+}
+
+#gallery-section {
+    height: 100vh;
+    background-color: #212121;
+    align-items: center;
+}
+
+#cta-section {
+    height: 100vh;
+    background-color: #e2e2e2;
+    align-items: center;
+}
+
+#contact-section {
+    height: 100vh;
+    background-color: #212121;
+    align-items: center;
 }
