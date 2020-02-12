@@ -1,5 +1,5 @@
 html, body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
@@ -8,43 +8,62 @@ html, body {
 }
 
 #hero-section {
-    height: 100vh;
-    background-color: #212121;
-    align-items: center;
+    height: 50vh;
+    background: url("../img/hero\ logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero-section #overlay {
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
 }
 
 #about-section {
-    height: 100vh;
-    background-color: #e2e2e2;
-    align-items: center;
+    height: 50vh;
+    background: url("../img/green\ grass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-section #overlay {
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
 }
 
 #services-section {
     height: 100vh;
     background-color: #212121;
-    align-items: center;
 }
 
 #areas-section {
     height: 100vh;
-    background-color: ##e2e2e2;
-    align-items: center;
+    background-color: #e2e2e2;
 }
 
 #gallery-section {
     height: 100vh;
     background-color: #212121;
-    align-items: center;
 }
 
 #cta-section {
     height: 100vh;
     background-color: #e2e2e2;
-    align-items: center;
 }
 
 #contact-section {
     height: 100vh;
     background-color: #212121;
-    align-items: center;
 }
