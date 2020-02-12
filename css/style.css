@@ -27,6 +27,7 @@ html, body {
 }
 
 #about-section {
+    padding: 50px 10px;
     height: 50vh;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
