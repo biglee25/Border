@@ -2,6 +2,11 @@ html, body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.btn {
+    border-radius: 0;
+    padding: 10px 25px;
+}
+
 #hero-section {
     height: 100vh;
     background-color: #212121;
