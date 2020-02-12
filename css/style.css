@@ -8,6 +8,7 @@ html, body {
 }
 
 #hero-section {
+    margin-top: 50px;
     height: 50vh;
     background: url("../img/hero\ logo.jpg");
     background-repeat: no-repeat;
