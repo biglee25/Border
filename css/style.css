@@ -2,6 +2,11 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.text-green {
+    color: #7ba255;
+}
+
+
 .btn {
     border-radius: 0;
     padding: 10px 25px;
@@ -28,14 +33,16 @@ html, body {
 
 #about-section {
     height: auto;
+    padding: 5rem 0;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #about-section #overlay {
-    width: 100%;
     height: auto;
+    margin: 5rem;
     top: 0;
     left: 0;
     right: 0;
@@ -46,7 +53,9 @@ html, body {
 
 #services-section {
     height: 100vh;
-    background-color: #212121;
+    padding: 5rem 0;
+    width: auto;
+    background-color: #fff;
 }
 
 #areas-section {
