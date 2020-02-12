@@ -33,7 +33,6 @@ html, body {
 
 #about-section {
     height: auto;
-    padding: 5rem 0;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +41,6 @@ html, body {
 
 #about-section #overlay {
     height: auto;
-    margin: 5rem;
     top: 0;
     left: 0;
     right: 0;
