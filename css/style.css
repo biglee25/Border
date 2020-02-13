@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .text-green {
@@ -7,15 +8,11 @@ html, body {
 }
 
 h1 {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 h2 {
     font-weight: 400;
-}
-
-h3 {
-    font-weight: 300;
 }
 
 p {
@@ -27,107 +24,82 @@ ul {
 }
 
 
+
+
 .btn {
     border-radius: 0;
     padding: 10px 25px;
 }
 
-#hero-section {
-    margin-top: 50px;
-    height: 50vh;
+#hero {
+    height: 40vh;
+    margin: 6rem 2rem;
+    padding: 1rem;
     background: url("../img/hero\ logo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
-#hero-section #overlay {
-    width: 100%;
-    height: 50vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 2;
-}
-
-#about-section {
-    height: auto;
+#about {
+    margin: 0 2rem;
+    padding: 1rem;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#about-section #overlay {
-    height: auto;
+#about {
+    padding: 0.5rem;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.900);
     z-index: 2;
 }
 
-#services-section {
+#services {
     height: auto;
     padding: 5rem 0;
     width: auto;
     background-color: #fff;
 }
 
-#areas-section {
-    height: auto;
-    padding: 5rem 0;
-    background: url("../img/tameside\ map.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-#areas-section #overlay {
-    height: auto;
-    padding: 2rem;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(74, 74, 74, 0.7);
-    z-index: 2;
-}
-
-#gallery-section {
-    padding: 5rem 0;
+#gallery {
+    padding: 5rem 2rem;
     background-color: #fff;
 }
 
-#cta-section {
-    padding: 5rem 0;
-    background: url("../img/hero\ logo.jpg");
+#cta {
+    margin: 0 2rem;
+    padding: 1rem;
+    background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#cta-section #overlay {
-    padding: 5rem;
-    margin: 0 5rem;
+#cta #overlay {
+    padding: 0.5rem;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(74, 74, 74, 0.7);
+    background-color: rgba(255, 255, 255, 0.900);
     z-index: 2;
 }
 
 
-#contact-section {
+#contact {
     padding: 5rem 0;
     background-color: #fff;
 }
 
 #footer .container-fluid {
-    height: 400px;
+    height: 200px;
     padding: 5rem 0;
     align-items: center;
 }
