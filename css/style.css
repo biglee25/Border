@@ -32,9 +32,8 @@ ul {
 }
 
 #hero {
-    height: 40vh;
-    margin: 6rem 2rem;
-    padding: 1rem;
+    height: 100%;
+    padding: 6rem;
     background: url("../img/hero\ logo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,16 +41,13 @@ ul {
 }
 
 #about {
-    margin: 0 2rem;
-    padding: 1rem;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#about {
-    padding: 0.5rem;
+#about #overlay {
     top: 0;
     left: 0;
     right: 0;
@@ -62,19 +58,18 @@ ul {
 
 #services {
     height: auto;
-    padding: 5rem 0;
+    padding-top: 5rem;
     width: auto;
     background-color: #fff;
 }
 
 
 #gallery {
-    padding: 5rem 2rem;
+    padding: 2rem 0;
     background-color: #fff;
 }
 
 #cta {
-    margin: 0 2rem;
     padding: 1rem;
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
@@ -83,7 +78,6 @@ ul {
 }
 
 #cta #overlay {
-    padding: 0.5rem;
     top: 0;
     left: 0;
     right: 0;
