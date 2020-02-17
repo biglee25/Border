@@ -7,6 +7,10 @@ html, body {
     color: #7ba255;
 }
 
+.btn-green {
+    background-color: #7ba255;
+}
+
 h1 {
     font-weight: 700;
 }
@@ -21,10 +25,19 @@ p {
 
 ul {
     font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
+.navbar-toggler {
+    border-color: #fff; /* Removes border color */
+    border: 0;
+  }
 
-
+  .fa-bars {
+      font-size: 2rem;
+      color: #7ba255;
+  }
 
 .btn {
     border-radius: 0;
@@ -38,6 +51,12 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#hero .hero-title {
+    background-color: #7ba255;
+    opacity: 0.8;
+    border-radius: 25px 25px 0 0;
 }
 
 #about {
