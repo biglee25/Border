@@ -63,9 +63,16 @@ ul {
     background-color: #fff;
 }
 
+#areas {
+    height: auto;
+    padding-top: 5rem;
+    width: auto;
+    background-color: #fff;
+}
+
 
 #gallery {
-    padding: 2rem 0;
+    padding: 6rem 0;
     background-color: #fff;
 }
 
@@ -87,7 +94,7 @@ ul {
 
 
 #contact {
-    padding: 5rem 0;
+    padding: 6rem 0;
     background-color: #fff;
 }
 
