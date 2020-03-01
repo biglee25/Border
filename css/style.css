@@ -64,10 +64,6 @@ ul {
     border-radius: 25px 25px 0 0;
 }
 
-#hero .animated {
-    animation-delay: 1s;
-}
-
 #about {
     background: url("../img/green\ grass.jpg");
     background-repeat: no-repeat;
