@@ -183,21 +183,21 @@
                         <div class="container text-center">
                             <h2 class="pb-3 text-dark">Leave us a Message</h2>
                             <p class="pb-5">If you have any, please fill in the form and we will get right back to you as soon as possible.</p>
-                            <form name='contact' method='POST'><input type='hidden' name='form-name' value='contact' />
+                            <form name="contact" method="POST" name="contact_form" action="contact-form-handler.php"><input type="hidden" value="contact" />
                                 <div class="form-row pb-3">
                                     <div class="form-group col-12">
                                         <input type="name" class="form-control py-4" id="inputName" placeholder="Name">
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="email" class="form-control py-4" id="inputEmail" placeholder="Email">
+                                        <input type="text" name="email" class="form-control py-4" id="inputEmail" placeholder="Email">
                                     </div>
                                     <div class="form-group col-12">
-                                        <textarea class="form-control py-3" id="inputMessage" rows="3" placeholder="Message"></textarea>
+                                        <textarea class="form-control py-3" id="inputMessage" rows="3" placeholder="Message" name="message"></textarea>
                                     </div>
                                     <div class="container text-right">
                                         <div class="row">
                                             <div class="col-12">
-                                                <button type="submit" class="btn btn-green text-white btn-xl mt-3">Submit</button>
+                                                <button type="submit" value="Submit" class="btn btn-green text-white btn-xl mt-3">Submit</button>
                                             </div>
                                         </div>  
                                     </div>
@@ -206,6 +206,57 @@
                         </div>
                     </div>
                 </div>
+
+                <form name="contactform" method="post" action="send_form_email.php">
+                    <table width="450px">
+                    <tr>
+                     <td valign="top">
+                      <label for="first_name">First Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="first_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="last_name">Last Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="last_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="email">Email Address *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="email" maxlength="80" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="telephone">Telephone Number</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="telephone" maxlength="30" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="comments">Comments *</label>
+                     </td>
+                     <td valign="top">
+                      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td colspan="2" style="text-align:center">
+                      <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+                     </td>
+                    </tr>
+                    </table>
+                    </form>
+
         </section>
         <footer id="footer">
             <div class="container-fluid bg-dark">
@@ -221,9 +272,6 @@
         </footer>
 
     <!-- Optional JavaScript -->
-
-  <!-- Scroll to Top Button-->
-
 
   <!-- Plugin JavaScript -->
 
@@ -259,6 +307,5 @@
     });
 
 </script>
-
 </body>
 </html>
